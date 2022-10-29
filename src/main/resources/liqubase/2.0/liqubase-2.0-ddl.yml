@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create account tables
+      author: Saleh Allahverdiyev
+      Comment: Student and Address Created
+      changes:
+        - sqlFile:
+            path: liqubase/2.0/liqubase-2.0-ddl.sql

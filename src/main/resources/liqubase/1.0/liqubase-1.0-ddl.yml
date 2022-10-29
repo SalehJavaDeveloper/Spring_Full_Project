@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create products tables
+      author: Saleh Allahverdiyev
+      Comment: Student and Address Created
+      changes:
+        - sqlFile:
+            path: liqubase/1.0/liqubase-1.0-ddl.sql
